@@ -199,5 +199,20 @@ setInterval(()=>{if (window.scrollY > 300) {
 }, 100)
 
 
+let POP = document.getElementById('POP');
+let TEXTPOP = document.getElementById('TEXTPOP');
+let IMAGEPOP = document.getElementById('IMAGEPOP');
 
+POP.style.display = 'none';
+setTimeout(() => {
+    POP.style.display = "grid";
+    setTimeout(() => {
+        POP.classList.add('FirstR'); 
+    TEXTPOP.classList.add('SecondR');
+    IMAGEPOP.classList.add('ThirdR');
+    }, 5);
+}, 5500);
     
+IMAGEPOP.addEventListener('click', ()=>{
+    POP.style.display = 'none';
+})
