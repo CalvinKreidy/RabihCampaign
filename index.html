@@ -1,0 +1,2360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RabihCampaign</title>
+    <link rel="stylesheet" href="./index.css"> 
+    <style>
+        #ContainerAttention {
+        width: 100%;
+        background-color: #EAEAEA;
+        padding: 15px 0px 30px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin: 50px 0px;
+    }
+    #TextAttentionSpecial {
+        font-size: 3.5vw;
+        width: 30%;
+    }
+    #DivText {
+    text-align: justify;
+    width: 87%;
+    }
+    #DivUpwards {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: white;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.65);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        left: 4%;
+        top: 86.6%;
+        z-index: 3;
+    }
+    #ImageArrow {
+        position: relative;
+        bottom: 1px;
+    }
+    </style>
+</head>
+
+
+
+
+<body id="body">
+    <p id="texttemporarily"><text style="display: block; margin-bottom: 25px;">Przepraszamy! 🚧</text> <text style="display: block; margin-bottom: 25px;">Nasza strona jest wciąż w budowie dla większych ekranów. Musieliśmy działać szybko, ponieważ czas nie był po naszej stronie – musimy jak najszybciej zebrać fundusze na leczenie mojego wujka.💡</text><text style="display: block; margin-bottom: 25px; color: #003366;"> Prosimy o sprawdzenie strony na telefonie.</text>Dziękujemy za zrozumienie i wsparcie! ❤️</p>
+    <div style="display: none;" id="DivUpwards">
+        <img id="ImageArrow" width="30px" src="./Assets/up-arrow.png">
+    </div>
+<div id="BoxMenu">
+    <img id="BurgerBar" width="35px" src="./Assets/burger-bar.png">
+    <div style="display: none;" id="DivBoxMenu1">
+        <a id="TextBoxMenu1" href="./about.html" class="TextBoxMenu">O MNIE</a>
+        <img class="ImageBoxMenu" src="./Assets/cat.png">
+        <div class="LineBoxMenu"></div>
+    </div>
+    <div style="display: none;" id="DivBoxMenu2">
+        <a id="TextBoxMenu2" href="./campaign.html" class="TextBoxMenu">CEL KAMPANII</a>
+        <img class="ImageBoxMenu" src="./Assets/goal.png">
+        <div class="LineBoxMenu"></div>
+    </div>
+    <div style="display: none;" id="DivBoxMenu3">
+        <a id="TextBoxMenu3" class="TextBoxMenu">ZDROWIE WUJKA</a>
+        <img id="ImageBoxMenu3" class="ImageBoxMenu" src="./Assets/better-health.png">
+        <div class="LineBoxMenu"></div>
+    </div>
+    <div style="display: none;" id="DivBoxMenu4">
+        <a id="TextBoxMenu4" class="TextBoxMenu">WYDATEK ŚRODKÓW</a>
+        <img class="ImageBoxMenu" src="./Assets/resource-allocation.png">
+        <div class="LineBoxMenu"></div>
+    </div>
+    <div style="display: none;" id="DivBoxMenu5">
+        <a id="TextBoxMenu5" href="https://www.facebook.com/rabih.kreidy" class="TextBoxMenu">FACEBOOK WUJKA</a>
+        <img class="ImageBoxMenu" src="./Assets/faceboook.png">
+    </div>
+</div>
+<a id="FixedToFix1" href="https://donate.stripe.com/9AQ7uu5Dm4aNeROfYY">
+    <button id="FixedDonationBox">
+    <img width="54px" id="ImageDonateBox" src="./Assets/donate (1).png">
+    </button>
+</a>
+<a style="display: none;" id="FixedToFix2">
+    <button id="FixedContactUsBox">
+        <img width="54px" id="ImageContactUsBox" src="./Assets/contact-me.png">
+    </button>
+</a>
+    <div id="RedAttentionBanner">
+        ZBIERAMY ŚRODKI NA LECZENIE MOJEGO WUJKA Z RAKIEM JĘZYKA    
+    </div>
+    <div id="DivRabihImage1">
+        <img id="RabihImage1" src="./Assets/RabihImage1.jpg">
+    </div>
+    <div id="DivMainDonationContainer">
+        <div id="MainDonationContainer">
+            <div id="GoFundMe">
+                <text id="TextGoFundMe">Wspierane Przez</text>
+                <img id="ImageGoFundMe" src="./Assets/GoFundMe.png">
+            </div>
+            <div id="BoxGoFundMe">
+
+            </div>
+            <div id="TopLevelGoFundMe">
+                <text id="AmountRaised">zł 44 764</text>
+                <text id="USD">zebrane</text>
+                <text id="Zebrano">PLN</text>
+            </div>
+            <div id="BottomLevelGoFundMe">
+                <text style="font-size: 3.4vw;">zł 655tys. Cel</text>
+                <div id="DotGoFundMe">
+
+                </div>
+                <text id="topp">132 Darowizny</text>
+            </div>
+            <div id="CirclesGoFundMe">
+                <div id="ConicCircleGoFundMe">
+                    <div id="NonConicCircle">
+                        <text id="PercentageText">
+                            7%
+                        </text>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ContainerAttention">
+        <img width="40px" src="./Assets/effect.png">
+        <div id="DivText"><text id="TextAttentionSpecial">Pamiętaj: Niektóre wpłaty zostały dokonane w dolarach amerykańskich. Kwoty na stronie zostały przeliczone na PLN, ponieważ leczenie mojego wujka wymaga dolarów, a on mieszka w Libanie, gdzie ta waluta jest powszechnie używana.</text></div>
+    </div>
+    <div id="DivMoneyForBox">
+        <div id="MoneyForBox">
+            <div id="LeftSlotMoneyForBox">
+                <img id="VaccineImage" src="./Assets/vaccine.png">
+                <text id="TextRedBoxLeft">LECZENIE IMMUNOTERAPIĄ KEYTRUDA</text>
+            </div>
+            <div id="LineMoneyForBox"></div>
+            <div id="RightSlotMoneyForBox">
+                <img id="SurgeryImage" src="./Assets/surgery.png">
+                <text id="TextRedBoxRight">Operacja Resekcji Guza – Zabieg Ratujący Życie</text>
+            </div>
+        </div>
+    </div>
+    <div id="DivDonatersBox">
+        <div id="BorderLineDonatersBox1"></div>
+        <div id="DonatersBox">
+            <div id="TextDivAdjustDonatersBox"><text id="TextTitleDonatersBox">Jesteśmy Bardzo Wdzięczni Za Wszystkie Darowizny<text>(132)</text></text></div>
+            <div id="ProfilesDonatersBox">
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anthony Herro</text>
+                        <img width="17px" src="./Assets/fire.png" id="FireDonatersBox1">
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 3 968,10</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Najwyższa darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">vergin Malkonian</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 793,62</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">George Maatouk</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Bilan Silvana</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Chantelle Farah</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Sargon Shamaan</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 1 984,05</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">J Kh</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 1 984,05</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 575,37</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Leila Elchami</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Shamiran Draha</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 39,68</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Roni Shamaan</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 1 984,05</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anthony Zeaiter</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 587,28</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Liliana Ramirez</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 79,36</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Kathy Chidiac</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Nagi Bassil</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 79,36</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Hikmat Araim</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Najwyższa darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Guita Bouhabib</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 1 984,05</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 793,62</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Mario Baini</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Lisa Ponomarenko</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Ralph Abi Nader</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Wendy Daher</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 119,04</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Gabriel Andari</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 99,20</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 277,77</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Tony Antoun</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 39,68</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Rachad Atallah</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 39,68</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 595,22</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Saaid Chedraoui</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 1 984,05</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Walid O</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 297,61</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 79,36</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Najwyższa darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 277,77</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Chooa Rashed</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Joelle Khoury</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 1 984,05</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Nadine Beaino</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 119,04</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 793,62</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 555,53</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 793,62</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Petra Obeid</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Hadi Ghafary</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 793,62</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">George Elias</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Abc Abc</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 79,36</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">George Khalife</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 39,68</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Waseem Abuyunis</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 793,62</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Patrick Sislian</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 39,68</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 595,22</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Maha Haddad</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 1 984,05</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Najwyższa darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 1 984,05</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 285,70</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">George Chehade</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 317,45</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 793,62</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 119,04</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Elie Tarabay</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 793,62</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 79,36</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 158,72</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Abir Abdo</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Edy Bassil</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Tarek Salloum</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 99,20</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Rami Hallal</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Jhony Harb</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Ralph Dahan</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 793,62</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Zein Soubra</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 793,62</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Najwyższa darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Raffy Karamanian</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 119,04</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Leonel Geagea</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 1 984,05</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 119,04</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 1 984,05</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 99,20</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Rodrigue Abi Saab Chimeli</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 793,62</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 79,36</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Jason Raffoul</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 39,68</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 39,68</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Ghadi Ghafary</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Lorraine Shalala</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 158,72</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 79,36</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Najwyższa darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Elie Soueidy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Jessica Nassif</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Aya Khoury</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 119,04</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Leila Zeidan</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 51,59</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 595,22</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Ghassan Shaheen</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 119,04</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Michael Jaber</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 39,68</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Lina Baalbacki</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 79,36</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Rami Haddad</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 793,62</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Elia ElKhoury</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 39,68</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 277,77</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Bachir Gereige</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 79,36</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 198,41</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Maurice Merhy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 595,22</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Dilara Serefoglu</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 793,62</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Anonimowy</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 793,62</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Rana Haddad</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+                <div class="ProfileDonatersBox1">
+                    <div class="BehindImageDonatersBox1"><img src="./Assets/heart.png" class="ImageProfileDonatersBox1"></div>
+                    <div class="UpperSlotProfile1">
+                        <text class="TextNameDonatersBox1">Milad Chalhoub</text>
+                    </div>
+                    <div class="BelowSlotProfile1">
+                        <text class="MoneyDonatersBox1">zł 396,81</text>
+                        <div class="DotDonatersBox1"></div>
+                        <text class="StatusDonatersBox1">Świeża darowizna</text>
+                    </div>
+                </div>
+
+            </div>
+            <img src="./Assets/love.png" id="HeartDonatersBox">
+        </div>
+        <div id="BorderLineDonatersBox2"></div>
+    </div>
+    <div id="DivOrganizatorCalvin">
+        <div id="OrganizatorCalvin">
+            <img id="UserDarkImage" src="./Assets/user (1).png">
+            <div id="LineOrganizatorCalvin">
+
+            </div>
+            <text id="TextOrganizatorCalvin">Calvin Kreidy organizuje tę zbiórkę</text>
+            <a style="display: none;" id="TextKontactOrganizator">Skontaktuj się ze mną</a>
+        </div>
+    </div>
+    <div id="DivHelpNow">
+        <a href="https://donate.stripe.com/9AQ7uu5Dm4aNeROfYY" id="HelpNow">
+            <text id="TextHelpNow">WESPRZYJ LECZENIE RABIH'A</text>
+        </a>
+        <div id="DivTextUnderHelpNow">
+            <text id="TextUnderHelpNow">Nawet najmniejsza darowizna ma znaczenie, jak jeden krok na długiej drodze — może wydawać się mały, ale zbliża nas do celu.</text>
+        </div>
+    </div>
+    
+    <iframe style="position: relative; top: 7px;" width="100%" height="600vh" src="https://www.youtube.com/embed/ulCPWaP9DPU?si=MVjPvMG-e1L3M7YV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+    <div id="DivCancerAwareness">
+        <div class="DivSpecialSpecial"><img id="ImageCancerAwareness" src="./Assets/cancer.png"></div>
+        <div id="LineCancerAwareness1"></div>
+        <div id="TitleSectionCancerAwareness">
+            <div id="DotCancerAwareness1"></div>
+            <div id="DotCancerAwareness2"></div>
+            <div id="DivTextTitleCancerAwareness"><text id="TextTitleCancerAwareness">Stawiając Czoło Walce: Zmagania Rabiha Z Rakiem</text></div>
+            <div id="DotCancerAwareness3"></div>
+            <div id="DotCancerAwareness4"></div>
+        </div>
+        <div id="LineCancerAwareness2"></div>
+        <div id="DivParagraphCancerAwareness">
+                Mój wujek, Rabih El Kreidy, od dziewięciu lat walczy z rakiem. Dziewięć lat bólu, niepewności i niezliczonych operacji. Wszystko zaczęło się od małego guza na jego języku. Przeszedł pierwszą operację i przez chwilę wydawało się, że wszystko będzie w porządku. Jednak trzy lata później guz wrócił w tym samym miejscu i musiał poddać się kolejnej operacji. Po niej przeszedł miesiąc brutalnej radioterapii i chemioterapii.
+
+                Jednak, gdy wydawało się, że pokonał chorobę, rak powrócił—silniejszy niż kiedykolwiek. Ciężar emocjonalny był nie do zniesienia, ale mój wujek nigdy się nie poddał. <text id="TextDisplayCancer" style="display: none;">Potem, w najciemniejszych dniach pandemii COVID-19, przeszedł trzecią, zagrażającą życiu operację—24-godzinny zabieg, który pozostawił go fizycznie i emocjonalnie wyczerpanego. Ale po raz kolejny pokonał przeciwności, wstał, odzyskał siły i poszedł do przodu.
+            
+                Trzy lata później los uderzył ponownie. Na jego szyi, w miejscu związanym z językiem, pojawił się nowy guz. Kolejna operacja, a potem chemoterapia, która była trudniejsza niż kiedykolwiek. Osłabiła go do tego stopnia, że nie mógł pracować i walczył o każdy dzień. Leczenie było okrutne, ale on nie przestał walczyć, nie pozwolił, by rak odebrał mu wszystko.
+            
+                Zaledwie dwa tygodnie temu badania PET i CT ujawniły, że rak powrócił—znowu, w tym samym miejscu. Jego jedyną szansą jest kolejna operacja, potem radioterapia, a następnie immunoterapia. To ostatnia nadzieja, ostatnia szansa. Lekarze wierzą, że jeśli jego ciało dobrze zareaguje na leczenie, istnieje duża szansa na trwałe wyleczenie. Ale koszt tego leczenia jest przytłaczający—od 520,000 do 600,000, kwota, której moja rodzina po prostu nie jest w stanie zebrać.
+            
+                Przez dziewięć lat mój wujek przeszedł więcej, niż ktokolwiek powinien. Walczył z całych sił, zawsze stając silniejszy, bardziej zdeterminowany, by iść dalej. Ale teraz, po raz pierwszy, stoi przed bitwą, której nie może wygrać sam. Prosi o pomoc—prawdziwe, szczere wsparcie.
+            
+                Jego największe pragnienie, ponad wszystko, to dać swoim dzieciom lepszą przyszłość, zapewnić im edukację, jakiej sam nie mógł mieć. Chce, aby osiągnęły to, czego on sam nie mógł osiągnąć. Ale teraz, mój wujek, człowiek, który walczył o życie, stoi przed nieznanym—nie jest w stanie opłacić leczenia, które może mu je uratować.
+            
+                Jestem w Polsce, daleko od domu, ale nie mogę stać z boku i patrzeć, jak mój wujek cierpi. Zrobię wszystko, co w mojej mocy, by mu pomóc, by dać jemu i jego rodzinie szansę. To nie chodzi tylko o pieniądze; chodzi o uratowanie życia i danie jego dzieciom nadziei, na którą zasługują.</text>
+        </div>
+        <div id="MoreLessCancerAwareness">
+            <text id="MoreCancerAwareness">Pokaż więcej</text>
+            <img width="20px" id="AddDeduct1" src="./Assets/add.png">
+        </div>
+    </div>
+    <div id="DivUncleHealth">
+        <div id="SpecialSpecial" class="DivSpecialSpecial"><img id="ImageCogWheel" src="./Assets/cogwheel.png"></div>
+        <div id="RedBoxUncleHealth">
+            <text id="TitleRedBoxUncleHealth">Bieżący Krok</text>
+            <div id="LineUncleHealth"></div>
+            <div id="DivTextRedBoxUncleHealth"><text id="TextRedBoxUncleHealth">Mój wujek dzisiaj idzie na dużą operację, która potrwa około 24 godziny. Będziemy aktualizować informacje po zakończeniu operacji.</text></div>
+        </div>
+        <div id="DivStepsUncleHealth">
+            <div id="LineUncleHealth1">
+            </div>
+            <div id="StepsUncleHealth">
+                <div id="TreatmentUncleHealth">
+                    <text>ROZLEGŁA OPERACJA</text>
+                    <text>RADIOTERAPIA</text>
+                    <text>LECZENIE KEYTRUDĄ</text>
+                </div>
+                <div id="Row">
+                    <img width="45px" src="./Assets/surgery (2).png">
+                    <img width="45px" src="./Assets/radiotherapy (1).png">
+                    <img width="45px" src="./Assets/immunotherapy22.png">
+                </div>
+                <div id="PointsUncleHealth">
+                    <div id="DarkSquareUncleHealth1">
+                        <div id="BlueSquareUncleHealth1"></div>
+                    </div>
+                    <div id="DarkSquareUncleHealth2">
+                        <div id="BlueSquareUncleHealth2"></div>
+                    </div>
+                    <div id="DarkSquareUncleHealth3">
+                        <div id="BlueSquareUncleHealth3"></div>
+                    </div>
+                    <div id="LineUncleHealthx1"></div>
+                    <div id="LineUncleHealthx2"></div>
+                </div>
+                <div id="WhenUncleHealth">
+                    <text id="TextWhenUncleHealth1">DZIŚ</text>
+                    <text id="TextWhenUncleHealth2">PO OPERACJI</text>
+                    <text id="TextWhenUncleHealth3">JAK NAJSZYBCIEJ</text>
+                </div>
+            </div>
+            <div id="LineUncleHealth2">
+            </div>
+        </div>
+        <div id="TitleSectionActualHealth">
+            <div id="DotActualHealth1"></div>
+            <div id="DotActualHealth2"></div>
+            <div id="DivTextTitleActualHealth"><text id="TextTitleActualHealth">AKTUALIZACJA STANU ZDROWIA MOJEGO WUJKA</text></div>
+            <div id="DotActualHealth3"></div>
+            <div id="DotActualHealth4"></div>
+            <div id="DivCirclesActualHealth">
+                <div id="DarkCircleActualHealth1">
+                    <div id="BlueCircleActualHealth1">
+                    </div>
+                </div>
+                <div id="DarkCircleActualHealth2">
+                    <div id="BlueCircleActualHealth2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="DivDateSectionActualHalth">
+            <text id="TextDateSectionActualHalth">Zaktualizowano dnia 19.02.2025</text>
+        </div>
+        <div id="DivCirclesActualHealthq">
+                <div id="DarkCircleActualHealth1q">
+                    <div id="BlueCircleActualHealth1q">
+                    </div>
+                </div>
+                <div id="DarkCircleActualHealth2q">
+                    <div style="display: none;" id="BlueCircleActualHealth2q">
+                    </div>
+                </div>
+        </div>
+        <div id="DivInformationBoxActualProblem">
+            <div id="InformationBoxActualProblem">
+                <text id="TitleInformationBoxActualProblem">ZAISTNIAŁY PROBLEM</text>
+                <div id="IconInformationBoxActualProblem">
+                    <div id="DotIconActualProblem1"></div>
+                    <img width="40px" src="./Assets/magnifying-glass.png">
+                    <div id="DotIconActualProblem2"></div>
+                </div>
+                <div id="LineInformationBoxActualProblem"></div>
+                <div id="ElementActualProblem1">
+                    <div id="DivComponentActualProblem1">
+                        <img width="5px" id="PointerActualProblem1" src="./Assets/right-arrow.png">
+                        <img width="55px" id="ComponentActualProblem1" src="./Assets/danger.png">
+                    </div>
+                    <div id="LineActualProblem1"></div>
+                    <div id="DivParagraphActualProblem1">
+                        <text id="ParagraphActualProblem1">Prawdopodobnie jest to stadium IV (czwarty, zaawansowany etap) raka języka, który rozprzestrzenił się na kości jamy ustnej.</text>
+                    </div>
+                </div>
+                <div style="display: none;" id="ElementActualProblem2">
+                    <div id="DivComponentActualProblem2">
+                        <img width="5px" id="PointerActualProblem2" src="./Assets/right-arrow.png">
+                        <img width="55px" id="ComponentActualProblem2" src="./Assets/medical-symbol.png">
+                    </div>
+                    <div id="LineActualProblem2"></div>
+                    <div id="DivParagraphActualProblem2">
+                        <text id="ParagraphActualProblem2">Rak u mojego wujka zaatakował kości szczęki w rejonie zęba kła, powodując destrukcję tkanek kostnych i potencjalne uszkodzenie struktur nerwowych. Sytuacja jest krytyczna i wymaga pilnej interwencji onkologicznej.</text>
+                    </div>
+                </div>
+                <div id="DivAddDeductActualProblem">
+                    <text id="TextAddDeductActualProblem">Pokaż więcej</text>
+                    <img id="AddDeductActualProblem" width="15px" src="./Assets/add.png">
+                </div>
+            </div>
+            
+        </div>
+        <div id="DivCirclesActualHealthw">
+            <div id="DarkCircleActualHealth1w">
+                <div id="BlueCircleActualHealth1w">
+                </div>
+            </div>
+            <div id="DarkCircleActualHealth2w">
+                <div id="BlueCircleActualHealth2w">
+                </div>
+            </div>
+        </div>
+        <div id="DivInformationBoxActualSolution">
+            <div id="InformationBoxActualSolution">
+                <text id="TitleInformationBoxActualSolution">PROPONOWANE ROZWIĄZANIE</text>
+                <div id="IconInformationBoxActualSolution">
+                    <div id="DotIconActualSolution1"></div>
+                    <img width="40px" src="./Assets/think.png">
+                    <div id="DotIconActualSolution2"></div>
+                </div>
+                <div id="LineInformationBoxActualSolution"></div>
+                <div id="ElementActualSolution1">
+                    <div id="DivComponentActualSolution1">
+                        <img width="5px" id="PointerActualSolution1" src="./Assets/right-arrow.png">
+                        <img width="55px" id="ComponentActualSolution1" src="./Assets/surgery (1).png">
+                    </div>
+                    <div id="LineActualSolution1"></div>
+                    <div id="DivParagraphActualSolution1">
+                        <text id="ParagraphActualSolution1">Mój wujek czeka na zatwierdzenie operacji, która może odbyć się w przyszłym tygodniu. Podczas 15-24 godzinnej procedury usunięty zostanie nowotwór z kości, nerwów i tkanek w rejonie kła, a kość przeszczepiona z innej części ciała, co wymaga równoczesnej operacji w dolnej części ciała.</text>
+                    </div>
+                </div>
+                <div style="display: none;" id="ElementActualSolution2">
+                    <div id="DivComponentActualSolution2">
+                        <img width="5px" id="PointerActualSolution2" src="./Assets/right-arrow.png">
+                        <img width="55px" id="ComponentActualSolution2" src="./Assets/radiotherapy.png">
+                    </div>
+                    <div id="LineActualSolution2"></div>
+                    <div id="DivParagraphActualSolution2">
+                        <text id="ParagraphActualSolution2">Po operacji wujek będzie poddany radioterapii, która skoncentruje się na zniszczeniu pozostałości nowotworu w tym obszarze.</text>
+                    </div>
+                </div>
+                <div style="display: none;" id="ElementActualSolution3">
+                    <div id="DivComponentActualSolution3">
+                        <img width="5px" id="PointerActualSolution3" src="./Assets/right-arrow.png">
+                        <img width="55px" id="ComponentActualSolution3" src="./Assets/immunotherapy.png">
+                    </div>
+                    <div id="LineActualSolution3"></div>
+                    <div id="DivParagraphActualSolution3">
+                        <text id="ParagraphActualSolution3">Po radioterapii wujek będzie poddany leczeniu Keytrudą (pembrolizumab), które jest kluczowym i złotym standardem leczenia. Ta immunoterapia wzmocni jego układ odpornościowy i pomoże w walce z pozostałymi komórkami rakowymi, zapobiegając ich rozprzestrzenianiu się i nawrotowi choroby</text>
+                    </div>
+                </div>
+                <div id="DivAddDeductActualSolution">
+                    <text id="TextAddDeductActualSolution">Pokaż więcej</text>
+                    <img id="AddDeductActualSolution" width="15px" src="./Assets/add.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="overflow-y: hidden;" id="YoutubeVideo">
+        <iframe width="100%" height="240px" src="https://www.youtube.com/embed/5zBA8wlNIHw?start=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+
+        <div id="DivSourceYoutube">
+        <a href="https://www.youtube.com/@KolegaIgnacy" id="WrappedSourceYoutube">
+            <img width="45px" id="ImageSourceYoutube" src="./Assets/youtube (1).png">
+            <text id="TextSourceYoutube">@Kolega Ignacy</text>
+        </a>
+        </div>
+    </div>
+    <div id="DivSectionFundAllocation">
+        <div id="SpecialSpecial1" class="DivSpecialSpecial"><img width="101px" id="GeneralImageFundAllocation" src="./Assets/budget.png"></div>
+        <div id="LineFundAllocation">
+        </div>
+        <div id="TitleSectionFundAllocation">
+            <div id="DotFundAllocation1"></div>
+            <div id="DotFundAllocation2"></div>
+            <div id="DivTextTitleFundAllocation"><text id="TextTitleFundAllocation">WYDATKOWANIE FUNDUSZY</text></div>
+            <div id="DotFundAllocation3"></div>
+            <div id="DotFundAllocation4"></div>
+            <div id="DivCirclesFundAllocation">
+                <div id="DarkCircleFundAllocation1">
+                    <div id="BlueCircleFundAllocation1">
+                    </div>
+                </div>
+                <div id="DarkCircleFundAllocation2">
+                    <div id="BlueCircleFundAllocation2">
+                    </div>
+                </div>
+                <div id="DarkCircleFundAllocation3">
+                    <div id="BlueCircleFundAllocation3">
+                    </div>
+                </div>
+                <div id="DarkCircleFundAllocation4">
+                    <div id="BlueCircleFundAllocation4">
+                    </div>
+                </div>
+                <div id="DarkCircleFundAllocation5">
+                    <div id="BlueCircleFundAllocation5">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="DivDateSectionFundAllocation">
+            <text id="TextDateSectionFundAllocation">Zaktualizowano dnia 19.02.2025</text>
+        </div>
+        <div id="DivAttentionFundAllocation">
+            <div id="ContainerAttentionFundAllocation">
+                <img width="40px" src="./Assets/effect.png">
+                <div id="DivTextAttentionFundAllocation">
+                    <text id="TextAttentionFundAllocation">Pamiętaj: Poniższy wykres pokazuje kolejność procedur, zaczynając od tych, które trzeba wykonać najpierw.</text>
+                </div>
+            </div>
+        </div>
+        <div id="GeneralProgress">
+            <div id="BorderLineProgress1">
+            </div>
+            <div id="GG">
+            <div id="DivTextProgessFundAllocation">
+                <text id="TextProgressFundAllocation">ŚRODKI ZEBRANE I ETAPY REALIZACJI LECZENIA</text>
+            </div>
+            <div id="LineProgressFundAllocation">
+            </div>
+            <div id="GoverningDivProgressFundAllocation">
+                
+                <div id="DivProgressFundAllocation">
+                    <div id="MoneyProgressFundAllocation">
+                        <text id="ZeroProgressFundAllocation">zł 0 <text class="USD">PLN</text></text>
+                        <text id="CompleteProgressFundAllocation">zł 655tys <text class="USD">PLN</text></text>
+                    </div>
+                    <div id="AbovePointsBarFundAllocation">
+                        <div id="PointAboveFundAllocation1"></div>
+                        <div id="PointAboveFundAllocation2"></div>
+                    </div>
+                    <div id="DivBarProgressFundAllocation">
+                        <div id="BarProgressFundAllocation">
+                            <div id="GreenBarProgressFundAllocation">
+                            </div>
+                            <div id="CousinBarProgressFundAllocation">
+                                <div id="FirstSectionFundAllocation"></div>
+                                <div id="SecondSectionFundAllocation"></div>
+                                <div id="ThirdSectionFundAllocation"></div>
+                                <div id="FourthSectionFundAllocation"></div>
+                                <div id="FifthSectionFundAllocation"></div>
+                            </div>
+                        </div>
+                        <div id="BelowPointsBarFundAllocation">
+                            <div id="PointBelowFundAllocation1"></div>
+                            <div id="PointBelowFundAllocation2"></div>
+                        </div>
+                        <div id="DivTrackProgressFundAllocation">
+                            <img width="10px" id="ImageTrackProgressFundAllocation" src="./Assets/bleach.png">
+                        </div>
+                    </div>
+                    <div id="IconsProgressFundAllocation">
+
+                    </div>
+                    <div id="ReferenceProgressFundAllocation">
+                    </div>
+                    <div id="FourthStageProgressFundAllocation">
+                        <img id="Image1" width="35px" src="./Assets/surgery-room.png">
+                        <img id="Image2" width="35px" src="./Assets/radiation-therapy.png">
+                        <img id="Image3" width="35px" src="./Assets/immunotherapy(2).png">
+                        <img id="Image4" width="35px" src="./Assets/raise-hand.png">
+                        <img id="Image5" width="35px" src="./Assets/menu.png">
+                    </div>
+                    <div id="FifthStageProgressFundAllocation">
+                        <div id="DotReferenceProgressBar1"></div>
+                        <div id="DotReferenceProgressBar2"></div>
+                        <div id="DotReferenceProgressBar3"></div>
+                        <div id="DotReferenceProgressBar4"></div>
+                        <div id="DotReferenceProgressBar5"></div>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+            <div id="BorderLineProgress2">
+            </div>
+        </div>
+        <div id="DivRedBoxFundAllocation">
+            <div id="ContainerRedBoxFundAllocation">
+                <div id="DivTextRedBoxFundAllocation"><text id="TextRedBoxFundAllocation">Obecnie brakuje nam środków na <text class="RedTextWanted">operację</text>, <text class="RedTextWanted">immunoterapię</text> i <text class="RedTextWanted">radioterapię</text>, których nie można opóźniać.</text></div>
+            </div>
+        </div>
+        <div class="DivIndexFundAllocation">
+            <div class="DarkCircleFundAllocationElement">
+                <div class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div style="display: none;" class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div style="display: none;" class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div style="display: none;" class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div style="display: none;" class="GreenCircleFundAllocationElement"></div>
+            </div>
+        </div>
+        <div class="DivElementFundAllocation">
+            <div class="ElementFundAllocation">
+                <div class="FirstStageElementFundAllocation">
+                    <div class="DotElementFundAllocation">
+                    </div>
+                    <text class="TitleElementFundAllocation">KOSZT GŁÓWNEJ OPERACJI</text>
+                </div>
+                <div class="SecondStageElementFundAllocation">
+                    <div class="DivSecondStageElement">
+                        <div class="DotSurroundingIcon"></div>
+                        <img width="40px" src="./Assets/surgery-room (1).png">
+                        <div class="DotSurroundingIcon"></div>
+                    </div>
+                </div>
+                <div class="ThirdStageElementFundAllocation">
+                    <div class="LineElementFundAllocation"></div>
+                </div>
+                <div class="FourthStageElementFundAllocation">
+                    <div class="DivTextElementFundAllocation">
+                        <text class="TextElementFundAllocation">Środki przeznaczone są na pokrycie kosztów głównej operacji oraz pobytu w szpitalu, w tym wszystkich związanych wydatków.</text>
+                    </div>
+                </div>
+                <div class="FifthStageElementFundAllocation">
+                    <div id="DivPercentageTextElementFundAllocation">
+                        <text class="PercentageTextElementFundAllocation">9.10% PRZEZNACZONE NA TĘ KATEGORIĘ</text>
+                    </div>
+                </div>
+                <div class="SixthStageElementFundAllocation">
+                    <div class="DotPercentageElementFundAllocation"></div>
+                </div>
+            </div>
+        </div>
+        <div class="DivIndexFundAllocation">
+            <div class="DarkCircleFundAllocationElement">
+                <div class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div style="display: none;" class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div style="display: none;" class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div style="display: none;" class="GreenCircleFundAllocationElement"></div>
+            </div>
+        </div>
+        <div class="DivElementFundAllocation">
+            <div class="ElementFundAllocation">
+                <div class="FirstStageElementFundAllocation">
+                    <div class="DotElementFundAllocation">
+                    </div>
+                    <text class="TitleElementFundAllocation">KOSZT RADIOTERAPII</text>
+                </div>
+                <div class="SecondStageElementFundAllocation">
+                    <div class="DivSecondStageElement">
+                        <div class="DotSurroundingIcon"></div>
+                        <img width="40px" src="./Assets/radiation-therapy.png">
+                        <div class="DotSurroundingIcon"></div>
+                    </div>
+                </div>
+                <div class="ThirdStageElementFundAllocation">
+                    <div class="LineElementFundAllocation"></div>
+                </div>
+                <div class="FourthStageElementFundAllocation">
+                    <div class="DivTextElementFundAllocation">
+                        <text class="TextElementFundAllocation">Środki przeznaczone na tę kategorię mają na celu wsparcie mojego wujka w pokryciu kosztów radioterapii.</text>
+                    </div>
+                </div>
+                <div class="FifthStageElementFundAllocation">
+                    <div id="DivPercentageTextElementFundAllocation">
+                        <text class="PercentageTextElementFundAllocation">3.03% PRZEZNACZONE NA TĘ KATEGORIĘ</text>
+                    </div>
+                </div>
+                <div class="SixthStageElementFundAllocation">
+                    <div class="DotPercentageElementFundAllocation"></div>
+                </div>
+            </div>
+        </div>
+        <div class="DivIndexFundAllocation">
+            <div class="DarkCircleFundAllocationElement">
+                <div class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div style="display: none;" class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div style="display: none;" class="GreenCircleFundAllocationElement"></div>
+            </div>
+        </div>
+        <div class="DivElementFundAllocation">
+            <div class="ElementFundAllocation">
+                <div class="FirstStageElementFundAllocation">
+                    <div class="DotElementFundAllocation">
+                    </div>
+                    <text class="TitleElementFundAllocation">KOSZT LECZENIA KEYTRUDĄ</text>
+                </div>
+                <div class="SecondStageElementFundAllocation">
+                    <div class="DivSecondStageElement">
+                        <div class="DotSurroundingIcon"></div>
+                        <img width="40px" src="./Assets/immunotherapy(2).png">
+                        <div class="DotSurroundingIcon"></div>
+                    </div>
+                </div>
+                <div class="ThirdStageElementFundAllocation">
+                    <div class="LineElementFundAllocation"></div>
+                </div>
+                <div class="FourthStageElementFundAllocation">
+                    <div class="DivTextElementFundAllocation">
+                        <text class="TextElementFundAllocation">Środki w tej kategorii są przeznaczone na leczenie Keytrudą. Koszt jednej dawki wynosi 10 000 USD, a do leczenia potrzeba od 13 do 15 dawek, co łącznie wynosi od 130,000 do 150,000 USD.</text>
+                    </div>
+                </div>
+                <div class="FifthStageElementFundAllocation">
+                    <div id="DivPercentageTextElementFundAllocation">
+                        <text class="PercentageTextElementFundAllocation">78.78% PRZEZNACZONE NA TĘ KATEGORIĘ</text>
+                    </div>
+                </div>
+                <div class="SixthStageElementFundAllocation">
+                    <div class="DotPercentageElementFundAllocation"></div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none;" id="DeductAdd1" class="DivIndexFundAllocation">
+            <div class="DarkCircleFundAllocationElement">
+                <div class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div style="display: none;" class="GreenCircleFundAllocationElement"></div>
+            </div>
+        </div>
+        <div id="DeductAdd2" style="display: none;" class="DivElementFundAllocation">
+            <div class="ElementFundAllocation">
+                <div class="FirstStageElementFundAllocation">
+                    <div class="DotElementFundAllocation">
+                    </div>
+                    <text class="TitleElementFundAllocation">KOSZT INFORMOWANIA</text>
+                </div>
+                <div class="SecondStageElementFundAllocation">
+                    <div class="DivSecondStageElement">
+                        <div class="DotSurroundingIcon"></div>
+                        <img width="40px" src="./Assets/raise-hand.png">
+                        <div class="DotSurroundingIcon"></div>
+                    </div>
+                </div>
+                <div class="ThirdStageElementFundAllocation">
+                    <div class="LineElementFundAllocation"></div>
+                </div>
+                <div class="FourthStageElementFundAllocation">
+                    <div class="DivTextElementFundAllocation">
+                        <text class="TextElementFundAllocation">Część środków przeznaczona jest na promocję – online (media społecznościowe, optymalizacja platform) i offline (materiały fizyczne) – oraz utrzymanie strony internetowej.</text>
+                    </div>
+                </div>
+                <div class="FifthStageElementFundAllocation">
+                    <div id="DivPercentageTextElementFundAllocation">
+                        <text class="PercentageTextElementFundAllocation">3.03% PRZEZNACZONE NA TĘ KATEGORIĘ</text>
+                    </div>
+                </div>
+                <div class="SixthStageElementFundAllocation">
+                    <div class="DotPercentageElementFundAllocation"></div>
+                </div>
+            </div>
+        </div>
+        <div id="DeductAdd3" style="display: none;" class="DivIndexFundAllocation">
+            <div class="DarkCircleFundAllocationElement">
+                <div class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div class="GreenCircleFundAllocationElement"></div>
+            </div>
+            <div class="DarkCircleFundAllocationElement">
+                <div class="GreenCircleFundAllocationElement"></div>
+            </div>
+        </div>
+        <div id="DeductAdd4" style="display: none;" class="DivElementFundAllocation">
+            <div class="ElementFundAllocation">
+                <div class="FirstStageElementFundAllocation">
+                    <div class="DotElementFundAllocation">
+                    </div>
+                    <text class="TitleElementFundAllocation">KOSZT INNYCH WYDATKÓW</text>
+                </div>
+                <div class="SecondStageElementFundAllocation">
+                    <div class="DivSecondStageElement">
+                        <div class="DotSurroundingIcon"></div>
+                        <img width="40px" src="./Assets/menu.png">
+                        <div class="DotSurroundingIcon"></div>
+                    </div>
+                </div>
+                <div class="ThirdStageElementFundAllocation">
+                    <div class="LineElementFundAllocation"></div>
+                </div>
+                <div class="FourthStageElementFundAllocation">
+                    <div class="DivTextElementFundAllocation">
+                        <text class="TextElementFundAllocation">Środki w tej kategorii są przeznaczone na pokrycie kosztów nieprzewidzianych procedur i wydatków, które mogą pojawić się w trakcie leczenia.</text>
+                    </div>
+                </div>
+                <div class="FifthStageElementFundAllocation">
+                    <div id="DivPercentageTextElementFundAllocation">
+                        <text class="PercentageTextElementFundAllocation">6.06% PRZEZNACZONE NA TĘ KATEGORIĘ</text>
+                    </div>
+                </div>
+                <div class="SixthStageElementFundAllocation">
+                    <div class="DotPercentageElementFundAllocation"></div>
+                </div>
+            </div>
+        </div>
+        <div class="DivAddDeductG">
+            <text class="TextAddDeductG">Pokaż więcej</text>
+            <img width="15px" class="ImageAddDeductG" src="./Assets/add.png">
+        </div>
+    </div>
+    </video>
+    <div style="background-color: #EAEAEA; width: 100%; height: 100px;"></div>
+    <div style="display: none;" id="DivContactMe">
+        <div id="Specialzz" class="DivSpecialSpecial"><img id="ImageContact" style="border-radius: 50%;" width="101px" src="./Assets/contact-me.png"></div>
+        <div class="LineContactMe"></div>
+        <div id="TitleSectionFundAllocation">
+        <div id="DotFundAllocation1"></div>
+        <div id="DotFundAllocation2"></div>
+        <div id="DivTextTitleFundAllocation"><text style="font-family: Poppins; color: black; font-weight: 400; font-size: 5.6vw;" id="TextTitleFundAllocation">SKONTAKTUJ SIĘ ZE MNĄ</text></div>
+        <div id="DotFundAllocation3"></div>
+        <div id="DotFundAllocation4"></div>
+    </div>
+    <div style="margin-top: 22px;" class="LineContactMe"></div>
+    <input required placeholder="Imie I Nazwisko" id="InputSpecial" class="TextAndEmail" type="text">
+    <input required placeholder="Email" class="TextAndEmail" type="email">
+    <textarea required placeholder="Wiadomość" id="Message" type="text"></textarea>
+    <button id="Submit" type="submit">ZŁOŻ FORMULARZ</button>
+    </div>
+    
+   <script src="./index.js"></script>
+</body>
+
+ 
+</html>
