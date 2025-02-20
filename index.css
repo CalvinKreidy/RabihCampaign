@@ -373,7 +373,7 @@ body {
 #DivTextUnderHelpNow {
     width: 88%;
     margin-top: 5px;
-    text-align: justify;
+    text-align: center;
     line-height: 14px;
     font-weight: 300;
 }
@@ -383,6 +383,7 @@ body {
     color: #A4A4A4;
     font-size: 3vw;
     letter-spacing: 1.5px;
+    line-height: 20px;
 }
 
 #TextKontactOrganizator {
@@ -1010,7 +1011,7 @@ a {
     width: 92%;
     display: grid;
     justify-items: center;
-    height: 145px;
+    height: 195px;
     margin: 50px 0px;
 }
 
