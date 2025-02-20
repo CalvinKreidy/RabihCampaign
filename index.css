@@ -333,7 +333,8 @@ body {
     grid-template-rows: auto auto;
     justify-items: center;
     margin-top: 50px;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #DCDCDC;
 }
 
 #HelpNow {
@@ -633,8 +634,8 @@ a {
 #TextDivAdjustDonatersBox {
     text-align: center;
     font-size: 5.2vw;
-    font-weight: 450;
-    color: #9D30A3;
+    font-weight: 400;
+    color: black;
 }
 
 #ProfilesDonatersBox {
@@ -1042,6 +1043,7 @@ a {
     height: 190px;
     width: 92%;
     row-gap: 20px;
+    text-align: center;
 }
 
 #DivStepsUncleHealth {
@@ -1049,7 +1051,7 @@ a {
     grid-template-columns: 2% 96% 2%;
     width: 100%;
     margin-bottom: 50px;
-    height: 190px;
+    height: 220px;
     justify-items: center;
 }
 
@@ -2409,7 +2411,7 @@ a {
 
 .DivSpecialSpecial {
     width: 100%;
-    background-color: #DFF0D8;
+    background-color: #D1E7D7;
     padding-top: 30px;
 }
 
@@ -2521,5 +2523,9 @@ input::placeholder {
 #ImageTrackProgressFundAllocation {
     position: relative;
     left: 5.2%;
+}
+
+#SS {
+    background-color: white;
 }
 }
