@@ -218,7 +218,6 @@ setInterval(() => {
         }}
 }, 1);
 
-
 IMAGEPOP.addEventListener('click', ()=>{
     POP.style.display = 'none';
 })
@@ -226,7 +225,8 @@ IMAGEPOP.addEventListener('click', ()=>{
 let RabihImage1 = document.getElementById("RabihImage1");
 let VideoYT = document.getElementById('VideoYT');
 
-setTimeout(() => {
+window.addEventListener('click', ()=>{ 
     RabihImage1.style.display = 'none';
     VideoYT.style.display = 'block';
-}, 2000);
+})
+   
