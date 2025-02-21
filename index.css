@@ -151,7 +151,7 @@ body {
     width: 85px;
     height: 85px;
     border-radius: 50%;
-    background: conic-gradient(#CECECE 93%, #228B22 7%);
+    background: conic-gradient(#CECECE 90%, #228B22 10%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -640,7 +640,7 @@ a {
 
 #ProfilesDonatersBox {
     display: grid;
-    grid-template-rows: repeat(132, 58px);
+    grid-template-rows: repeat(138, 58px);
     margin-top: 25px;
     row-gap: 25px;
     overflow-x: hidden;
@@ -1997,7 +1997,7 @@ a {
 }
 
 #GreenBarProgressFundAllocation {
-    width: 7%;
+    width: 10%;
     height: 25px;
     top: 0px;
     z-index: 1;
@@ -2524,7 +2524,7 @@ input::placeholder {
 
 #ImageTrackProgressFundAllocation {
     position: relative;
-    left: 5.2%;
+    left: 8.3%;
 }
 
 #SS {
