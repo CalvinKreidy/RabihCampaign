@@ -225,7 +225,7 @@ IMAGEPOP.addEventListener('click', ()=>{
 let RabihImage1 = document.getElementById("RabihImage1");
 let VideoYT = document.getElementById('VideoYT');
 
-body.addEventListener('scroll', ()=>{ 
+body.addEventListener('scrollend', ()=>{ 
     RabihImage1.style.display = 'none';
     VideoYT.style.display = 'block';
 })
