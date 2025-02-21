@@ -205,15 +205,18 @@ let IMAGEPOP = document.getElementById('IMAGEPOP');
 let x = 1;
 
 POP.style.display = 'none';
+setInterval(() => {
     if (window.scrollY > 600) {
-    POP.style.display = "grid";
-    setTimeout(() => {
-        POP.classList.add('FirstR'); 
-    TEXTPOP.classList.add('SecondR');
-    IMAGEPOP.classList.add('ThirdR');
-    x = 0;
-    }, 5);
-}
+        if (x == 1) {
+            POP.style.display = "grid";
+            setTimeout(() => {
+                POP.classList.add('FirstR'); 
+                TEXTPOP.classList.add('SecondR');
+                IMAGEPOP.classList.add('ThirdR');
+                x = 0;
+            }, 5);
+        }}
+}, 1);
 
 
 IMAGEPOP.addEventListener('click', ()=>{
