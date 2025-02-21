@@ -202,17 +202,28 @@ setInterval(()=>{if (window.scrollY > 300) {
 let POP = document.getElementById('POP');
 let TEXTPOP = document.getElementById('TEXTPOP');
 let IMAGEPOP = document.getElementById('IMAGEPOP');
+let x = 1;
 
 POP.style.display = 'none';
-setTimeout(() => {
+    if (window.scrollY > 600) {
     POP.style.display = "grid";
     setTimeout(() => {
         POP.classList.add('FirstR'); 
     TEXTPOP.classList.add('SecondR');
     IMAGEPOP.classList.add('ThirdR');
+    x = 0;
     }, 5);
-}, 5500);
-    
+}
+
+
 IMAGEPOP.addEventListener('click', ()=>{
     POP.style.display = 'none';
 })
+
+let RabihImage1 = document.getElementById("RabihImage1");
+let VideoYT = document.getElementById('VideoYT');
+
+setTimeout(() => {
+    RabihImage1.style.display = 'none';
+    VideoYT.style.display = 'block';
+}, 2000);
